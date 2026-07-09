@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-token-usage",
+  "description": "Token usage after every Claude Code turn.",
+  "owner": {
+    "name": "Zod D"
+  },
+  "plugins": [
+    {
+      "name": "claude-token-usage",
+      "displayName": "Claude Token Usage",
+      "source": "./plugins/claude-token-usage",
+      "description": "Shows fresh input, cache reads, cache writes, output, and total tokens after every turn.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Zod D"
+      },
+      "homepage": "https://github.com/wilmtang/claude-token-usage",
+      "repository": "https://github.com/wilmtang/claude-token-usage",
+      "license": "MIT",
+      "keywords": ["tokens", "usage", "hooks", "observability"],
+      "category": "monitoring"
+    }
+  ]
+}

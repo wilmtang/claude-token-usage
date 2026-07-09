@@ -1,0 +1,12 @@
+{
+  "name": "claude-token-usage",
+  "version": "0.1.0",
+  "description": "Shows token usage after every Claude Code turn.",
+  "author": {
+    "name": "Zod D"
+  },
+  "homepage": "https://github.com/wilmtang/claude-token-usage",
+  "repository": "https://github.com/wilmtang/claude-token-usage",
+  "license": "MIT",
+  "keywords": ["tokens", "usage", "hooks", "observability"]
+}

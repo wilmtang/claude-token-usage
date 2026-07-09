@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "exec \"${CLAUDE_PLUGIN_ROOT}/hooks/stop-token-usage.sh\"",
+            "timeout": 5,
+            "statusMessage": "Calculating Claude token usage..."
+          }
+        ]
+      }
+    ]
+  }
+}
